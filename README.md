@@ -2,4 +2,4 @@
 
 My Website Clones for the biggest companies in the world.
 
-![Collage](/faang-clones-collage.gif)
+![Collage](/faang-clones-collage.jpg)
