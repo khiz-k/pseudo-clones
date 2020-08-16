@@ -1,3 +1,3 @@
 # clones
 
-placeholder for my website clones for practice
+placeholder for my website clones
