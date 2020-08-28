@@ -1,9 +1,5 @@
-# Clones
+# Reddit Clone
 
-My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix, Reddit and more... with all basic functionality and some advanced features.
-### Netflix and youtube mobile version as well.
+Angular w/Typescript frontend and Java/Spring Boot backend.
 
-React, Redux, Node, Express, Firebase, HTML, SCSS, Java/Spring
-Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap
-
-![Collage](/faang-clones-collage.jpg)
+Needs styling touch up and more functionality.
