@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+}
+
+.error-message {
+  background: #ff9b9b;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.comment-form, .loading {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loading {
+  text-align: center;
+}
+
+.comments {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comments > div {
+  background: hsl(0, 0%, 95%);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.comments > div > h3 {
+  word-wrap: break-word;
+}
+
+.comments > div > p {
+  word-wrap: break-word;
+}
+
+.comments > div:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}

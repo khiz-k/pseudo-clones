@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitter Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Twitter Clone</h1>
+    </header>
+    <main>
+      <form class="comment-form">
+        <div class="error-message">
+        </div>
+        <label for="name">Name</label>
+        <input class="u-full-width" type="text" id="name" name="name">
+        <label for="content">Comment</label>
+        <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+        <button class="button-primary">Send</button>
+      </form>
+      <div class="comments">
+
+      </div>
+      <div class="button-container">
+        <p id="loadMore">Loading...</p>
+      </div>
+      <div class="loading">
+        <img src="loading.gif" alt="">
+      </div>
+    </main>
+    <script src="client.js"></script>
+  </body>
+</html>
