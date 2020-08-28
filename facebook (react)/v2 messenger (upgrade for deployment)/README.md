@@ -1,4 +1,4 @@
-# Useable version
+# Live Chat Messenger V2 - Live and Useable
 
 ### [Live Site](https://realtime-chat-application.netlify.com)
 
