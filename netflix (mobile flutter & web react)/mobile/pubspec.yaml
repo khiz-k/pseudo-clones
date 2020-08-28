@@ -1,0 +1,51 @@
+name: netflix_clone
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/starwars.jpg 
+    - lib/assets/starwars1.jpg 
+    - lib/assets/netflix.png
+    - lib/assets/1.jpg
+    - lib/assets/2.jpg
+    - lib/assets/3.jpg
+    - lib/assets/4.jpg
+    - lib/assets/5.jpg
+    - lib/assets/6.jpg
+    - lib/assets/7.jpg
+    - lib/assets/8.jpg
+    - lib/assets/9.jpg
+    - lib/assets/10.jpg
+    - lib/assets/11.jpg
+    - lib/assets/12.jpg
+    - lib/assets/birdboxBanner.jpg
+
