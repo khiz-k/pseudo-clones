@@ -1,6 +1,6 @@
 # Live Chat Messenger V2 - Live and Useable
 
-### [Live Site](https://realtime-chat-application.netlify.com)
+### [Live Site](https://khiz-chat.netlify.app/)
 
 ![Chat Application](https://i.ytimg.com/vi/ZwFA3YMfkoc/maxresdefault.jpg)
 
