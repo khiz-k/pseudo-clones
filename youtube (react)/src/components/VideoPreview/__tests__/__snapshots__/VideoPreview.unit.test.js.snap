@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPreview renders horizontally 1`] = `<div />`;
+
+exports[`VideoPreview renders vertically 1`] = `<div />`;

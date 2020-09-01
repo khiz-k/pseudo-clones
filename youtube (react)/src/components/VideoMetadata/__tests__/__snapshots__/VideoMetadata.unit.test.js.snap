@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoMetadata renders with view count 1`] = `<div />`;
+
+exports[`VideoMetadata renders without props 1`] = `<div />`;

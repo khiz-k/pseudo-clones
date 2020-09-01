@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating renders 1`] = `
+<div
+  className="rating"
+>
+  <div>
+    <Icon
+      as="i"
+      name="thumbs outline up"
+    />
+    <span />
+  </div>
+  <div>
+    <Icon
+      as="i"
+      name="thumbs outline down"
+    />
+    <span />
+  </div>
+</div>
+`;

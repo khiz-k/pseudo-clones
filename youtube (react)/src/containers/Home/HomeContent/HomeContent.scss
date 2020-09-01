@@ -1,0 +1,33 @@
+@import '../../../styles/shared.scss';
+
+.home-content {
+  margin-left: $sidebar-left-width;
+  padding-left: 8px;
+  display: grid;
+  grid: auto / auto;
+  justify-content: center;
+}
+
+@media all and (min-width: 562px) {
+  .responsive-video-grid-container {
+    max-width: 600px;
+  }
+}
+
+@media all and (min-width: 908px) {
+  .responsive-video-grid-container {
+    max-width: 848px;
+  }
+}
+
+@media all and (min-width: 1254px) {
+  .responsive-video-grid-container {
+    max-width: 1096px;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .responsive-video-grid-container {
+    max-width: 1344px; /*320 (video preview width) * 4 + 16 (margin) * 4*/
+  }
+}
