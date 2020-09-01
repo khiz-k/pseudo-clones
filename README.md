@@ -6,4 +6,9 @@ My clones for some of the biggest companies in the world.  Featuring Facebook, A
 React (mostly w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
 Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
 
+Some live examples:
+Messenger (v2, still needs styling): https://khiz-chat.netlify.app/
+AirBnb: https://airbnb-clone-d6fe5.web.app/
+~~Reddit: khiz-reddit.herokuapp.com~~
+
 ![Collage](/faang-clones-collage.jpg)
