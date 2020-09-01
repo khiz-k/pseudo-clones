@@ -8,6 +8,8 @@ Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
 
 Some live examples:
 
+Youtube: https://khiz-youtube.netlify.app
+
 Spotify: https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
