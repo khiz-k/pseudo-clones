@@ -10,7 +10,7 @@ import Trending from './containers/Trending/Trending';
 import Search from './containers/Search/Search';
 
 // const API_KEY = process.env.REACT_APP_YT_API_KEY;
-const API_KEY = "AIzaSyBrRqALpUinvIYz3nUxUVXJi06SEVg3Gg0";
+const API_KEY = "";
 
 class App extends Component {
   render() {
