@@ -8,7 +8,7 @@ Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
 
 Some live examples:
 
-Messenger (v2, still needs styling): https://khiz-chat.netlify.app/ - mobile seems to crash the backend server
+Messenger (v2, still needs styling): https://khiz-chat.netlify.app/ - please don't use it in mobile b/c it seems to crash the backend server.  Contact me if it doesn't work so I can redeploy the server.
 
 AirBnb: https://airbnb-clone-d6fe5.web.app/
 
