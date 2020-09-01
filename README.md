@@ -12,6 +12,6 @@ Messenger (v2, still needs styling): https://khiz-chat.netlify.app/
 
 AirBnb: https://airbnb-clone-d6fe5.web.app/
 
-~~Reddit: khiz-reddit.herokuapp.com~~
+~~Reddit: khiz-reddit.herokuapp.com~~ (database needs reconfiguring)
 
 ![Collage](/faang-clones-collage.jpg)
