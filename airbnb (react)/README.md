@@ -1,3 +1,3 @@
-# Airbnb Placeholder (currently just front-end)
+# Airbnb (currently just front-end)
 
 Live @: https://airbnb-clone-d6fe5.web.app
