@@ -10,7 +10,7 @@ Some live examples:
 
 Youtube: https://khiz-youtube.netlify.app
 
-Spotify: https://khiz-spotify.netlify.app
+Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
