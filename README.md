@@ -1,4 +1,4 @@
-# Clones w/express or springboot backends
+# Pseudo Clones w/express or springboot backends
 ## Hosted and facilatated by netlify, heroku, firebase, aws and SQL/NoSQL.
 
 My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix, Reddit and more...
