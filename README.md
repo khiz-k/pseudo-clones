@@ -8,9 +8,9 @@ Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
 
 Some live examples:
 
-AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
-
 Spotify: https://khiz-spotify.netlify.app
+
+AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
 Messenger (v2, still needs styling): https://khiz-chat.netlify.app/ - please don't use it in mobile b/c it seems to crash the backend server.  Contact me if it doesn't work so I can redeploy the server.
 
