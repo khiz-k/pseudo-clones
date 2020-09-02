@@ -6,6 +6,8 @@
 
 Some live examples:
 
+Netflix: https://netflix-clone-5930d.web.app/
+
 Facebook: https://fb-clone-5930d.web.app/
 
 Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
