@@ -16,10 +16,10 @@ Messenger (v2, unique styling): https://khiz-chat.netlify.app/ - please don't us
 
 Google: https://khiz-google.netlify.app
 
-~~Reddit: khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
-
 Local examples and how to:
 
 Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
+
+~~Reddit: khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
 
 ![Collage](/faang-clones-collage.jpg)
