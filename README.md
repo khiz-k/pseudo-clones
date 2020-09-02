@@ -13,6 +13,6 @@ Messenger (v2, unique styling): https://khiz-chat.netlify.app/ - please don't us
 
 Google: https://khiz-google.netlify.app
 
-~~Reddit: khiz-reddit.herokuapp.com~~ (database needs reconfiguring because email authorization for login is currently a security risk live, you can still run it locally though).
+~~Reddit: khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
 
 ![Collage](/faang-clones-collage.jpg)
