@@ -3,12 +3,14 @@
 
 My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix, Reddit and more...
 
-React (mostly w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
+React (halfish w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
 Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
 
 Some live examples:
 
-Spotify: https://khiz-spotify.netlify.app
+Youtube: https://khiz-youtube.netlify.app
+
+Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
