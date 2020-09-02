@@ -18,7 +18,7 @@ Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
-Messenger (v2, unique styling): https://khiz-chat.netlify.app/ - please don't use it on mobile b/c it seems to crash the backend server due to a conflict with heroku hosting.  Contact me if it doesn't work so I can redeploy the server.
+Messenger (v2, unique styling): https://khiz-chat.netlify.app/ - please don't use it on mobile b/c it seems to crash the backend server due to a conflict with heroku hosting.  Contact me if it doesn't work so I can redeploy the server (also possible to start server yourself by going to https://khiz-chat-server.herokuapp.com).
 
 Google: https://khiz-google.netlify.app
 
