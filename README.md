@@ -20,6 +20,6 @@ Google: https://khiz-google.netlify.app
 
 Local examples and how to:
 
-Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
+Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
 ![Collage](/faang-clones-collage.jpg)
