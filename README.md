@@ -18,4 +18,8 @@ Google: https://khiz-google.netlify.app
 
 ~~Reddit: khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
 
+Local examples and how to:
+
+Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
+
 ![Collage](/faang-clones-collage.jpg)
