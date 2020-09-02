@@ -1,1 +1,1 @@
-# Placeholder for Instagram Clone
+# Tinder Clone
