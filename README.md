@@ -4,7 +4,7 @@
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
 #### Written in React (some w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
 
-Some live examples:
+##### Some live examples:
 
 Netflix: https://netflix-clone-5930d.web.app/
 
@@ -22,7 +22,7 @@ Messenger (v2, unique styling): https://khiz-chat.netlify.app/ - please don't us
 
 Google: https://khiz-google.netlify.app
 
-Local examples and how to:
+##### Local examples and how to:
 
 Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
