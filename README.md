@@ -10,6 +10,10 @@ Netflix: https://netflix-clone-5930d.web.app/
 
 Facebook: https://fb-clone-5930d.web.app/
 
+TikTok: 
+
+Tinder:
+
 Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
