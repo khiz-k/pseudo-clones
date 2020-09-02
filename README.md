@@ -1,10 +1,7 @@
 # Pseudo Clones
-### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
-
-My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix, Reddit and more...
-
-React (halfish w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
-Boot, Spring Security, Spring Data JPA, MySQL, Angular, Bootstrap, Flutter
+### My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix and more...
+#### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
+#### Written in React (halfish w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring
 
 Some live examples:
 
