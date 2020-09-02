@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoInfoBox renders collapsed 1`] = `<div />`;
+
+exports[`VideoInfoBox renders expanded 1`] = `<div />`;

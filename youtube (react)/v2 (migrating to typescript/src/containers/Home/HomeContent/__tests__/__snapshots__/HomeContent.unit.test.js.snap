@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeContent renders 1`] = `
+<div
+  className="home-content"
+>
+  <div
+    className="responsive-video-grid-container"
+  >
+    <InfiniteScroll
+      bottomReachedCallback={[MockFunction]}
+      showLoader={true}
+    >
+      <VideoGrid
+        title="Trending"
+        videos={Array []}
+      />
+    </InfiniteScroll>
+  </div>
+</div>
+`;

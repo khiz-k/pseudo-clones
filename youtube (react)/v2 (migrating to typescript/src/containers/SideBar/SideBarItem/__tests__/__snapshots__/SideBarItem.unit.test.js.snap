@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarItem Render non-highlighted SideBarItem 1`] = `
+<Link
+  to={
+    Object {
+      "pathname": undefined,
+    }
+  }
+>
+  <MenuItem
+    className="sidebar-item "
+  >
+    <div
+      className="sidebar-item-alignment-container"
+    >
+      <span>
+        <Icon
+          as="i"
+          name="fire"
+          size="large"
+        />
+         
+      </span>
+      <span>
+        Trending
+      </span>
+    </div>
+  </MenuItem>
+</Link>
+`;
+
+exports[`SideBarItem Renders SideBarItem without path 1`] = `
+<Link
+  to={
+    Object {
+      "pathname": undefined,
+    }
+  }
+>
+  <MenuItem
+    className="sidebar-item "
+  >
+    <div
+      className="sidebar-item-alignment-container"
+    >
+      <span>
+        <Icon
+          as="i"
+          size="large"
+        />
+         
+      </span>
+      <span />
+    </div>
+  </MenuItem>
+</Link>
+`;
+
+exports[`SideBarItem Renders highlighted SideBarItem 1`] = `
+<Link
+  to={
+    Object {
+      "pathname": "/feed/trending",
+    }
+  }
+>
+  <MenuItem
+    className="sidebar-item highlight-item"
+  >
+    <div
+      className="sidebar-item-alignment-container"
+    >
+      <span>
+        <Icon
+          as="i"
+          name="fire"
+          size="large"
+        />
+         
+      </span>
+      <span>
+        Trending
+      </span>
+    </div>
+  </MenuItem>
+</Link>
+`;
