@@ -1,5 +1,5 @@
 # Pseudo Clones (1-2 Day Builds Each)
-## Will continue to update them in my free time to work towards completion
+## Might update them in my free time and work towards completion
 ### My clones for some of the biggest companies in the world.  Featuring Facebook, Amazon, Netflix and more...
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
 #### Written in React (some w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter
