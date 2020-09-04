@@ -3,3 +3,5 @@
 Just UI and setup for backend, no video functionality yet.
 
 Creds: Kalle Hallden Flutter tutorial on YT.
+
+![Ex](/faang-clones-collage.jpg)
