@@ -1,6 +1,6 @@
 # Pseudo Clones (1-2 Day Builds Each)
 
-### My clones for some of the biggest companies in the world. Might update them in my free time and work towards completion
+### My clones for some of the biggest companies in the world, might update them in my free time and work towards completion
 
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
 
