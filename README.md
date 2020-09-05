@@ -6,7 +6,7 @@
 
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
 
-#### Written in React (some w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter
+#### Written in React (some w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter, etc.
 
 ## Some live examples:
 
