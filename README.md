@@ -6,21 +6,21 @@
 
 ## Some live examples:
 
-Netflix: https://netflix-clone-5966a.web.app/
 
-Facebook: https://fb-clone-5930d.web.app/
+Facebook(w/posting ability): https://fb-clone-5930d.web.app/
+
+Netflix (w/movie reel scroll and trailer playability): https://netflix-clone-5966a.web.app/
 
 TikTok: 
 
-Tinder:
 
-Spotify (not mobile friendly yet): https://khiz-spotify.netlify.app
+Spotify (not mobile friendly yet, plays song trailers): https://khiz-spotify.netlify.app
 
 AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
-Messenger (v2, unique styling): Check if server is up: https://khiz-chat-server.herokuapp.com, if it is then go to https://khiz-chat.netlify.app/ to test the app - no mobile b/c it seems to crash the backend server due to a conflict with heroku hosting.  Contact me if there's an issue.
+Messenger (v2, unique styling, real-time chat in multiple rooms): Check if server is up: https://khiz-chat-server.herokuapp.com, if it is then go to https://khiz-chat.netlify.app/ to test the app - no mobile b/c it seems to crash the backend server due to a conflict with heroku hosting.  Contact me if there's an issue.
 
-Google: https://khiz-google.netlify.app
+Google (search functionality): https://khiz-google.netlify.app
 
 ## Local examples and how to:
 
