@@ -30,6 +30,6 @@ Google (search functionality): https://khiz-google.netlify.app
 
 Youtube (search and play videos): clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
-Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter package and flutter run.
+Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter packages and flutter run.
 
 ~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
