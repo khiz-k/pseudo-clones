@@ -8,9 +8,9 @@
 
 ## Some live examples:
 
-MERN TikTok:
-
 MERN Whatsapp:
+
+MERN TikTok: https://tiktok-clone-8ade4.web.app/
 
 Firebase & React Facebook(w/google auth & posting ability): https://fb-clone-5930d.web.app/
 
