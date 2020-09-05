@@ -8,13 +8,15 @@
 
 ## Some live examples:
 
-TikTok:
+MERN TikTok:
 
-Facebook(w/posting ability): https://fb-clone-5930d.web.app/
+MERN Whatsapp:
 
-Netflix (w/movie reel scroll and trailer playability): https://netflix-clone-5966a.web.app/
+Firebase & React Facebook(w/google auth & posting ability): https://fb-clone-5930d.web.app/
 
-Whatsapp:
+Firebase & React Netflix (w/movie reel scroll and trailer playability): https://netflix-clone-5966a.web.app/
+
+Firebase & React Twitter: https://twitter-clone-647e1.web.app/ (mongo version can be run locally, just update mongodb details with your own)
 
 Spotify (not mobile friendly yet, plays song trailers): https://khiz-spotify.netlify.app
 
@@ -26,8 +28,8 @@ Google (search functionality): https://khiz-google.netlify.app
 
 ## Local examples and how to:
 
-Youtube: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
+Youtube (search and play videos): clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
-~~Reddit: khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
+Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter package and flutter run.
 
-![Collage](/faang-clones-collage.jpg)
+~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
