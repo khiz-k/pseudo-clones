@@ -18,13 +18,13 @@ Firebase & React Netflix (w/movie reel scroll and trailer playability): https://
 
 Firebase & React Twitter: https://twitter-clone-647e1.web.app/ (mongo version can be run locally, just update mongodb details with your own)
 
-Spotify (not mobile friendly yet, plays song trailers): https://khiz-spotify.netlify.app
+React & Express Spotify (not mobile friendly yet, plays song trailers): https://khiz-spotify.netlify.app
 
-AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
+Firebase & React AirBnb (frontend only): https://airbnb-clone-d6fe5.web.app/
 
 Messenger (v2 w/ unique styling, real-time chat in multiple rooms): Check if server is up: https://khiz-chat-server.herokuapp.com, if it is then go to https://khiz-chat.netlify.app/ to test the app - no mobile b/c it seems to crash the backend server due to a conflict with heroku hosting. Contact me if there's an issue.
 
-Google (search functionality): https://khiz-google.netlify.app
+HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 
 ## Local examples and how to:
 
