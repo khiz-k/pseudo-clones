@@ -28,7 +28,7 @@ HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 
 ## Local examples and how to:
 
-Youtube (search and play videos): clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
+Youtube (search and play videos): I took this off live because the API requests costs too much.  To run it do the following: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
 Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter packages and flutter run.
 
