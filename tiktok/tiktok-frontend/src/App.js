@@ -23,7 +23,7 @@ function App() {
       return response;
     }
 
-    fetchPosts();
+    fetchPost();
   }, []);
 
   return (
