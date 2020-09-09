@@ -12,8 +12,6 @@ MERN Amazon (auth, search filter, add to cart, payment processing, INSANE templa
 
 MERN Whatsapp: (auth, realtime messaging in chat, sidebar): https://whats-b6b35.web.app/
 
-MERN TikTok (pause/play, snap functionality, IDENTICAL ui): https://tiktok-clone-8ade4.web.app/
-
 Firebase & React Facebook(w/google auth & posting ability): https://fb-clone-5930d.web.app/
 
 Firebase & React Netflix (w/movie reel scroll and trailer playability): https://netflix-clone-5966a.web.app/
@@ -33,5 +31,7 @@ HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 Youtube (search and play videos): I took this off live because the API requests costs too much.  To run it do the following: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js (info in readme.md of folder) then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
 Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter packages and flutter run.
+
+MERN TikTok (pause/play, snap functionality, IDENTICAL ui): need to configure your own mongodb backend or you can use it in conjunction with a firebase database, either config is pretty easy to setup.  The reason this isn't deployed is because tiktok has permission issues where it disallows its' videos from being shared on other sites after certain periods of time.  As a result, I didn't want to have to delete database docs every day and add new ones too if needed.
 
 ~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
