@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "your own backend",
+  baseURL: "https://khiz-tiktok-mern-backend.herokuapp.com/",
 });
 
 export default instance;
