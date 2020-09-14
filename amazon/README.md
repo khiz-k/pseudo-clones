@@ -1,3 +1,3 @@
 # Amazon Clone
 
-Basic ecommerce and amazon functionality integrated with Stripe API for payments.
+Ecommerce and amazon UI with tons of functionality including cart additions and deletions, subtotalling, payment processing integrated with Stripe API, and more...
