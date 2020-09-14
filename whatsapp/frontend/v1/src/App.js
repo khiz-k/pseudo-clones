@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import Sidebar from "./Sidebar";
-import Chat from "./Chat";
-import Login from "./Login";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Chat from "./components/Chat/Chat";
+import Login from "./components/Login/Login";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useStateProviderValue } from "./StateProvider";
-import HomeScreen from "./HomeScreen";
+import HomeScreen from "./components/Homescreen/HomeScreen";
 
 function App() {
   const [{ user }, dispatch] = useStateProviderValue();
@@ -22,7 +22,7 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                <HomeScreen/>
+                <HomeScreen />
               </Route>
             </Switch>
           </Router>

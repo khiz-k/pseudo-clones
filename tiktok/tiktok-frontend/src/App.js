@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Video from "./Video";
+import Video from "./components/Video";
 import db from "./firebase";
 import "./App.css";
 import axios from "./axios";

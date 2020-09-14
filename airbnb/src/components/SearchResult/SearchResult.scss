@@ -1,0 +1,71 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+
+  &__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+  }
+
+  &__infoTop {
+    width: 40vw;
+
+    h3 {
+      font-weight: 300;
+      margin-top: 10px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 13px;
+      color: gray;
+    }
+  }
+
+  &__infoBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__star {
+    color: red;
+  }
+
+  &__stars {
+    display: flex;
+    align-items: center;
+  }
+
+  &__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+
+    p {
+      text-align: right;
+    }
+  }
+}
