@@ -1,1 +1,3 @@
-# Netflix
+# Netflix Web
+
+Scroll wheel for movies, playable trailers, identical UI and much much more...
