@@ -8,7 +8,7 @@
 
 ## Some live examples:
 
-MERN Amazon (auth, search filter, add to cart, payment processing, INSANE template for any ecommerce builds): https://
+MERN Amazon (auth, search filter, add to cart, payment processing, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/
 
 MERN Whatsapp: (auth, realtime messaging in chat, sidebar): https://whats-b6b35.web.app/
 
