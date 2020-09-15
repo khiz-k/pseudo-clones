@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Checkout from "./Checkout";
-import Login from "./Login";
-import Payment from "./Payment";
-import Orders from "./Orders";
+import Checkout from "./components/Checkout/Checkout";
+import Login from "./components/Login/Login";
+import Payment from "./components/Payment/Payment";
+import Orders from "./components/Orders/Orders";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
