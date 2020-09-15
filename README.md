@@ -9,7 +9,7 @@
 ## Some live examples:
 
 MERN Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123 
-- other versions have search filter, sorting and more...
+- Other versions have search filter, sorting and more but lack in styling
 
 MERN Whatsapp: (auth, realtime messaging in chat, sidebar): https://whats-b6b35.web.app/
 
