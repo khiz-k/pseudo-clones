@@ -1,50 +1,79 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import Cookie from 'js-cookie';
+
 import {
   productListReducer,
   productDetailsReducer,
-  productSaveReducer,
+  productUpdateReducer,
   productDeleteReducer,
   productReviewSaveReducer,
+  productCategoryListReducer,
+  productCreateReducer,
 } from './reducers/productReducers';
 import { cartReducer } from './reducers/cartReducers';
 import {
   userSigninReducer,
   userRegisterReducer,
+  userUpdateProfileReducer,
+  userListReducer,
+  userDetailsReducer,
   userUpdateReducer,
+  userDeleteReducer,
+  userTopSellersReducer,
+  userAddressMapReducer,
 } from './reducers/userReducers';
 import {
   orderCreateReducer,
   orderDetailsReducer,
   orderPayReducer,
-  myOrderListReducer,
+  orderMineListReducer,
   orderListReducer,
   orderDeleteReducer,
+  orderDeliverReducer,
+  orderSummaryReducer,
 } from './reducers/orderReducers';
 
-const cartItems = Cookie.getJSON('cartItems') || [];
-const userInfo = Cookie.getJSON('userInfo') || null;
+const shippingAddress = localStorage.getItem('shippingAddress')
+  ? JSON.parse(localStorage.getItem('shippingAddress'))
+  : {};
+
+const cartItems = localStorage.getItem('cartItems')
+  ? JSON.parse(localStorage.getItem('cartItems'))
+  : [];
+
+const userInfo = localStorage.getItem('userInfo')
+  ? JSON.parse(localStorage.getItem('userInfo'))
+  : null;
 
 const initialState = {
-  cart: { cartItems, shipping: {}, payment: {} },
+  cart: { cartItems, shippingAddress, paymentMethod: 'paypal' },
   userSignin: { userInfo },
 };
 const reducer = combineReducers({
+  cart: cartReducer,
+  userAddressMap: userAddressMapReducer,
+  userList: userListReducer,
+  userDetails: userDetailsReducer,
+  userUpdate: userUpdateReducer,
+  userDelete: userDeleteReducer,
+  userSignin: userSigninReducer,
+  userTopSellers: userTopSellersReducer,
+  userUpdateProfile: userUpdateProfileReducer,
+  userRegister: userRegisterReducer,
   productList: productListReducer,
   productDetails: productDetailsReducer,
-  cart: cartReducer,
-  userSignin: userSigninReducer,
-  userRegister: userRegisterReducer,
-  productSave: productSaveReducer,
+  productUpdate: productUpdateReducer,
   productDelete: productDeleteReducer,
   productReviewSave: productReviewSaveReducer,
+  productCreate: productCreateReducer,
   orderCreate: orderCreateReducer,
+  productCategoryList: productCategoryListReducer,
   orderDetails: orderDetailsReducer,
   orderPay: orderPayReducer,
-  userUpdate: userUpdateReducer,
-  myOrderList: myOrderListReducer,
+  orderDeliver: orderDeliverReducer,
+  orderMineList: orderMineListReducer,
   orderList: orderListReducer,
+  orderSummary: orderSummaryReducer,
   orderDelete: orderDeleteReducer,
 });
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

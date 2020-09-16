@@ -1,9 +1,7 @@
 import React from 'react';
 
 export default function Rating(props) {
-  return !props.value ? (
-    <div></div>
-  ) : (
+  return (
     <div className="rating">
       <span>
         <i
@@ -14,7 +12,7 @@ export default function Rating(props) {
               ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -25,7 +23,7 @@ export default function Rating(props) {
               ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -36,7 +34,7 @@ export default function Rating(props) {
               ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -47,7 +45,7 @@ export default function Rating(props) {
               ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -58,9 +56,9 @@ export default function Rating(props) {
               ? 'fa fa-star-half-o'
               : 'fa fa-star-o'
           }
-        ></i>
+        />
       </span>
-      <span>{props.text ? props.text : ''}</span>
+      <span>{props.text ? ` ${props.text}` : ''}</span>
     </div>
   );
 }

@@ -1,17 +1,24 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { signin } from "../actions/userActions";
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { signin } from '../actions/userActions';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 function SigninScreen(props) {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const userSignin = useSelector((state) => state.userSignin);
   const { loading, userInfo, error } = userSignin;
   const dispatch = useDispatch();
-  const redirect = props.location.search
-    ? props.location.search.split("=")[1]
-    : "/";
+  const redirect =
+    props.location.search && props.location.search.indexOf('redirect') >= 0
+      ? props.location.search.split('=')[1]
+      : '/';
+  const message =
+    props.location.search && props.location.search.indexOf('message') >= 0
+      ? props.location.search.split('=')[1]
+      : '';
   useEffect(() => {
     if (userInfo) {
       props.history.push(redirect);
@@ -19,58 +26,65 @@ function SigninScreen(props) {
     return () => {
       //
     };
-  }, [userInfo]);
+  }, [userInfo, props.history, redirect]);
 
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(signin(email, password));
   };
   return (
-    <div className="form">
-      <form onSubmit={submitHandler}>
-        <ul className="form-container">
-          <li>
-            <h2>Sign-In</h2>
-          </li>
-          <li>
-            {loading && <div>Loading...</div>}
-            {error && <div>{error}</div>}
-          </li>
-          <li>
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              onChange={(e) => setEmail(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              onChange={(e) => setPassword(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <button type="submit" className="button primary">
-              Signin
-            </button>
-          </li>
-          <li>New to amazon?</li>
-          <li>
+    <div>
+      <form className="form" onSubmit={submitHandler}>
+        <div>
+          <h1>Sign In</h1>
+        </div>
+        {loading && <LoadingBox />}
+        {error && <MessageBox variant="error">{error}</MessageBox>}
+        {message && (
+          <MessageBox variant="error">
+            {message.replace(/%20/g, ' ')}
+          </MessageBox>
+        )}
+
+        <div>
+          <label htmlFor="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            required
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div>
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <div>
+          <label />
+          <button className="primary" type="submit">
+            Sign In
+          </button>
+        </div>
+        <div>
+          <label />
+          <div>
+            New customer?{' '}
             <Link
               to={
-                redirect === "/" ? "register" : "register?redirect=" + redirect
+                redirect === '/' ? 'register' : `register?redirect=${redirect}`
               }
-              className="button secondary text-center"
             >
-              Create your amazon account
+              Create your account
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </form>
     </div>
   );

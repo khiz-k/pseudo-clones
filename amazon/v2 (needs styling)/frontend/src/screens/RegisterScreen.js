@@ -1,20 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { register } from "../actions/userActions";
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { register } from '../actions/userActions';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 function RegisterScreen(props) {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [rePassword, setRePassword] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const userRegister = useSelector((state) => state.userRegister);
   const { loading, userInfo, error } = userRegister;
   const dispatch = useDispatch();
 
   const redirect = props.location.search
-    ? props.location.search.split("=")[1]
-    : "/";
+    ? props.location.search.split('=')[1]
+    : '/';
   useEffect(() => {
     if (userInfo) {
       props.history.push(redirect);
@@ -22,74 +24,82 @@ function RegisterScreen(props) {
     return () => {
       //
     };
-  }, [userInfo]);
+  }, [userInfo, props.history, redirect]);
 
   const submitHandler = (e) => {
     e.preventDefault();
-    dispatch(register(name, email, password));
+    if (confirmPassword !== password) {
+      alert('Password and confirm password does not match.');
+    } else {
+      dispatch(register(name, email, password));
+    }
   };
   return (
-    <div className="form">
-      <form onSubmit={submitHandler}>
-        <ul className="form-container">
-          <li>
-            <h2>Create Account</h2>
-          </li>
-          <li>
-            {loading && <div>Loading...</div>}
-            {error && <div>{error}</div>}
-          </li>
-          <li>
-            <label htmlFor="name">Name</label>
-            <input
-              type="name"
-              name="name"
-              id="name"
-              onChange={(e) => setName(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              onChange={(e) => setEmail(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              onChange={(e) => setPassword(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <label htmlFor="rePassword">Re-Enter Password</label>
-            <input
-              type="password"
-              id="rePassword"
-              name="rePassword"
-              onChange={(e) => setRePassword(e.target.value)}
-            ></input>
-          </li>
-          <li>
-            <button type="submit" className="button primary">
-              Register
-            </button>
-          </li>
-          <li>
-            Already have an account?
+    <div>
+      <form className="form" onSubmit={submitHandler}>
+        <div>
+          <h1>Create Account</h1>
+        </div>
+        {loading && <LoadingBox />}
+        {error && <MessageBox variant="error">{error}</MessageBox>}
+
+        <div>
+          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="Enter name"
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div>
+          <label htmlFor="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Enter email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div>
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="Enter Password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <div>
+          <label htmlFor="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            required
+            placeholder="Confirm Password"
+            onChange={(e) => setConfirmPassword(e.target.value)}
+          />
+        </div>
+        <div>
+          <label />
+          <button className="primary" type="submit">
+            Register
+          </button>
+        </div>
+        <div>
+          <label />
+          <div>
+            Already have an account?{' '}
             <Link
-              to={redirect === "/" ? "signin" : "signin?redirect=" + redirect}
-              className="button secondary text-center"
+              to={redirect === '/' ? 'signin' : `signin?redirect=${redirect}`}
             >
-              Create your amazon account
+              Sign-In
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </form>
     </div>
   );

@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
-import config from './config';
+import config from './config.js';
+
 const getToken = (user) => {
   return jwt.sign(
     {
@@ -7,10 +8,11 @@ const getToken = (user) => {
       name: user.name,
       email: user.email,
       isAdmin: user.isAdmin,
+      isSeller: user.isSeller,
     },
     config.JWT_SECRET,
     {
-      expiresIn: '48h',
+      expiresIn: '30d',
     }
   );
 };
@@ -22,23 +24,29 @@ const isAuth = (req, res, next) => {
     const onlyToken = token.slice(7, token.length);
     jwt.verify(onlyToken, config.JWT_SECRET, (err, decode) => {
       if (err) {
-        return res.status(401).send({ message: 'Invalid Token' });
+        res.status(401).send({ message: 'Invalid Token' });
+      } else {
+        req.user = decode;
+        next();
       }
-      req.user = decode;
-      next();
-      return;
     });
   } else {
-    return res.status(401).send({ message: 'Token is not supplied.' });
+    res.status(401).send({ message: 'No Token' });
   }
 };
 
 const isAdmin = (req, res, next) => {
-  console.log(req.user);
   if (req.user && req.user.isAdmin) {
     return next();
   }
-  return res.status(401).send({ message: 'Admin Token is not valid.' });
+  return res.status(401).send({ message: 'Invalid Admin Token' });
 };
 
-export { getToken, isAuth, isAdmin };
+const isSeller = (req, res, next) => {
+  if (req.user && req.user.isSeller) {
+    return next();
+  }
+  return res.status(401).send({ message: 'Invalid Seller Token' });
+};
+
+export { getToken, isAuth, isAdmin, isSeller };
