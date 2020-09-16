@@ -1,4 +1,4 @@
-# Pseudo Clones (1-2 Day Builds Per Version)
+# Pseudo Clones (1-3 Day Builds Per Version)
 
 ### My clones for some of the biggest companies in the world, might update them in my free time and work towards completion
 
