@@ -4,7 +4,7 @@
 
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...
 
-#### Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter, etc.
+#### Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter, etc.
 
 ## Some live examples:
 
