@@ -8,8 +8,9 @@
 
 ## Some live examples:
 
-MERN Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123 
-- Other versions have search filter, sorting and more but lack in styling
+MERN Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
+
+- Other versions have search filter, sorting and more but currently lack in styling
 
 MERN Whatsapp: (auth, realtime messaging in chat, sidebar): https://whats-b6b35.web.app/
 
