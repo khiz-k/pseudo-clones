@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="main-head">
             <nav>
-                <h1 id="logo">Wisdomly</h1>
+                <h1 id="logo">Amazon</h1>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
