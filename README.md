@@ -2,9 +2,9 @@
 
 ### My clones for some of the biggest companies in the world, might update them in my free time and work towards completion
 
-#### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and SQL/NoSQL.
+#### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...
 
-#### Written in React (some w/Typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter, etc.
+#### Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, NoSQL, HTML, SCSS, Java/Spring, Angular, Flutter, etc.
 
 ## Some live examples:
 
