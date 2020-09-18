@@ -8,7 +8,7 @@
 
 ## Some live examples:
 
-Firebase Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
+Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
 MERN Amazon (search filter, rating, sorting): Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
 
