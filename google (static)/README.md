@@ -1,5 +1,7 @@
 # Google Homepage Clone
 
+https://khiz-google.netlify.app
+
 * Flex-box
 * Media Queries
 * Positioning - relative/absolute
