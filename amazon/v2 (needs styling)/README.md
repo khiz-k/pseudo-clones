@@ -1,5 +1,7 @@
 # Amazon MERN Ecommerce
 
+Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
+
 ## Build:
 
 1. Home Screen
