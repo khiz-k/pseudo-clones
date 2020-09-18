@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-// mongodb+srv://<user>:uEKVaEf6S7sGAboO@cluster0.n6oen.mongodb.net/<dbname>?retryWrites=true&w=majority
+// mongodb+srv://<user>:<password>@cluster0.n6oen.mongodb.net/<dbname>?retryWrites=true&w=majority
 dotenv.config();
 
 export default {
