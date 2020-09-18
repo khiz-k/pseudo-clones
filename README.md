@@ -8,9 +8,11 @@
 
 ## Some live examples:
 
-MERN & Firebase Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
+Firebase Amazon (auth, add/remove cart, payment processing, order history, INSANE template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
-- 2 other versions which have search filter, sorting and more but currently lack in styling so I haven't deployed them.  They also need too many details/servers from accounts that I've deleted (ex. mongodb and aws) to be up and fully functioning.  Feel free to run them locally and fill in your own info though.
+MERN Amazon (search filter, rating, sorting): Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
+
+AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify): 
 
 MERN Whatsapp: (auth, realtime messaging in chat, sidebar w/multiple rooms available): https://whats-b6b35.web.app/
 
