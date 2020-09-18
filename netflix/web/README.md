@@ -1,3 +1,5 @@
 # Netflix Web
 
-Scroll wheel for movies, playable trailers, identical UI and much much more...
+Scroll wheel for movies, playable trailers, identical UI, etc.
+
+https://netflix-clone-5966a.web.app/
