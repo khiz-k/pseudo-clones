@@ -2,6 +2,8 @@
 
 Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
 
+![example](/amazon/v2 (needs styling)/amazon-mern.gif)
+
 ## Build:
 
 1. Home Screen
