@@ -20,6 +20,9 @@ Looks almost exactly like the original Youtube application
 
 ![Youtube in React Watch-2](images/youtube-react-watch-2.png)
 
+![example](/youtube/youtube.gif)
+
+![example](/youtube/youtube-mp4.mp4)
 
 ### API key
 
