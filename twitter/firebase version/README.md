@@ -1,5 +1,7 @@
 https://twitter-clone-647e1.web.app/
 
+![example](./twitter.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
