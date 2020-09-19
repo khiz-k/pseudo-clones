@@ -4,5 +4,5 @@ Immersive landing page and date and time picker that leads to listings.
 
 Live @: https://airbnb-clone-d6fe5.web.app
 
-![example](/airbnb.gif)
+![example](/airbnb/airbnb.gif)
 
