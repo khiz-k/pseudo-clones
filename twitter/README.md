@@ -2,6 +2,6 @@
 
 Able to post onto a feed and mimic Twitter's trademark features.
 
-live firebase version: https://twitter-clone-647e1.web.app/
+Live firebase version: https://twitter-clone-647e1.web.app/
 
-![example](/twitter/firebase-version/twitter.gif)
+Run mongo locally with your own details.
