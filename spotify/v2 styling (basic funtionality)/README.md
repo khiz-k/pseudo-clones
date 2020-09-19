@@ -1,5 +1,7 @@
 # Spotify clone
 
+https://khiz-spotify.netlify.app
+
 Basic functionality; log in and search for music.
 Plays 30 second "trailers" of songs.
 
