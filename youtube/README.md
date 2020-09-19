@@ -22,6 +22,7 @@ Looks almost exactly like the original Youtube application
 
 ![example](/youtube/youtube.gif)
 
+--------------------------------------------------------------------------------------------------
 
 ### API key
 
