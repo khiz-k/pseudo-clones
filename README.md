@@ -10,11 +10,13 @@
 
 Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
+AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify):
+
 MERN Amazon (search filter, rating, sorting): Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
 
-AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify): 
+MERN Whatsapp (auth, realtime messaging in chat, sidebar w/multiple rooms available): https://whats-b6b35.web.app/
 
-MERN Whatsapp: (auth, realtime messaging in chat, sidebar w/multiple rooms available): https://whats-b6b35.web.app/
+MERN/Firebase Instagram (email and google auth/login, posting w/image, sidebar with "current" popular trends/placeholder for ads, commenting ability, identical UI): https://instagram-clone-8ac3d.web.app/
 
 Firebase & React Facebook(w/google auth & posting ability): https://fb-clone-5930d.web.app/
 
@@ -25,7 +27,6 @@ Firebase & React Twitter (w/tweeting ability): https://twitter-clone-647e1.web.a
 React & Express Spotify (not mobile friendly yet, plays song trailers and provides real spotify playlists from their api): https://khiz-spotify.netlify.app
 
 Firebase & React AirBnb (frontend only w/date and time picker that leads to listings): https://airbnb-clone-d6fe5.web.app/
-
 
 HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 

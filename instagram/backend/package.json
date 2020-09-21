@@ -1,0 +1,24 @@
+{
+  "name": "ig-backend",
+  "version": "1.0.0",
+  "description": "instagram backend",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=13.x.x",
+    "npm": ">=3.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Khizar Khan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4",
+    "pusher": "^3.0.1"
+  }
+}
