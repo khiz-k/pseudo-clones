@@ -10,9 +10,9 @@
 
 Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
-AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify):
+AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify): http://bookstore-20200921170525-hostingbucket-prod.s3-website-us-east-1.amazonaws.com/
 
-MERN Amazon (search filter, rating, sorting): Seed first @ http://khiz-amazon.herokuapp.com/api/users/seed then use site @ http://khiz-amazon.herokuapp.com/
+MERN Amazon (search filter, rating, sorting): http://khiz-amazon.herokuapp.com/ I plan to merge this one with the firebase one to make the ultimate build
 
 MERN Whatsapp (auth, realtime messaging in chat, sidebar w/multiple rooms available): https://whats-b6b35.web.app/
 
