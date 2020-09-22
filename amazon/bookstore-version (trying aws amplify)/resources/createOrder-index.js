@@ -1,11 +1,11 @@
-const { v4: uuidv4 } = require("uuid");
-const AWS = require("aws-sdk");
+const { v4: uuidv4 } = require('uuid');
+const AWS = require('aws-sdk');
 const documentClient = new AWS.DynamoDB.DocumentClient();
 
-const ORDER_TABLE = "<order_table_name>";
-const ORDER_TYPE = "Order";
-const BOOK_ORDER_TABLE = "<book_order_table name>";
-const BOOK_ORDER_TYPE = "BookOrder";
+const ORDER_TABLE = 'Order-facqg3vtxrgk3prkt6pstzp2cq-prod';
+const ORDER_TYPE = 'Order';
+const BOOK_ORDER_TABLE = 'BookOrder-facqg3vtxrgk3prkt6pstzp2cq-prod';
+const BOOK_ORDER_TYPE = 'BookOrder';
 
 const createOrder = async (payload) => {
   const { order_id, username, email, total } = payload;
@@ -18,8 +18,8 @@ const createOrder = async (payload) => {
       user: username,
       total: total,
       updatedAt: new Date().toISOString(),
-      createdAt: new Date().toISOString()
-    }
+      createdAt: new Date().toISOString(),
+    },
   };
   console.log(params);
   await documentClient.put(params).promise();
@@ -38,15 +38,15 @@ const createBookOrder = async (payload) => {
           order_id: payload.order_id,
           customer: payload.email,
           createdAt: new Date().toISOString(),
-          updatedAt: new Date().toISOString()
-        }
-      }
+          updatedAt: new Date().toISOString(),
+        },
+      },
     });
   }
   let params = {
-    RequestItems: {}
+    RequestItems: {},
   };
-  params["RequestItems"][BOOK_ORDER_TABLE] = bookOrders;
+  params['RequestItems'][BOOK_ORDER_TABLE] = bookOrders;
   console.log(params);
   await documentClient.batchWrite(params).promise();
 };
@@ -70,7 +70,7 @@ exports.handler = async (event) => {
 
     // Note - You may add another function to email the invoice to the user
 
-    return "SUCCESS";
+    return 'SUCCESS';
   } catch (err) {
     console.log(err);
     return new Error(err);
