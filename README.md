@@ -4,7 +4,7 @@
 
   <h4 align="center">
     <a href="https://travis-ci.org/khiz-k/pseudo-clones"><img src="https://travis-ci.org/CCOSTAN/Home-AssistantConfig.svg?branch=master"/></a>
-    <a href="https://github.com/khiz-k/pseudo-clones/stargazers"><img src="https://img.shields.io/github/stars/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/></a>
     <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
         <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
 
