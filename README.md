@@ -11,7 +11,7 @@
   
 <p><font size="3">
 
-<h4 align="center">Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...<br/>Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter, etc.</h4>
+<h4 align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</h4>
 
 <h2 align="left">Some live examples:</h2>
 
