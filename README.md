@@ -1,5 +1,6 @@
 <h1 align="center">Pseudo Clones</h1>
 <h4 align="center">My clones for some of the biggest companies in the world!</h4>
+<h4 align="center">(1-3 day builds per version)</h4>
 
 <p align="center"><a align="center" target="_blank" href="https://vcloudinfo.us12.list-manage.com/subscribe?u=45cab4343ffdbeb9667c28a26&id=e01847e94f"><img src="https://feeds.feedburner.com/RecentCommitsToBearStoneHA.1.gif" alt="Recent Commits to Bear Stone Smart Home" style="border:0"></a></p>
 <div align="center">
