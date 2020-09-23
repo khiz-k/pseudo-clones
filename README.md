@@ -12,7 +12,7 @@
 
 #
 
-<h3 align="left">Some live examples:</h3>
+<h3 align="left">Live Examples:</h3>
 
 * Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
@@ -40,7 +40,7 @@
 
 * MERN TikTok (pause/play, snap functionality, IDENTICAL user experience): https://tiktok-clone-8ade4.web.app/ \* Tiktok has permission issues where it disallows its' videos from being shared on other sites after certain periods of time. As a result, the videos can appear blank and I didn't want to have to delete database docs and add new ones everyday. If you can't see the videos, make your own firebase or mongo db and connect that with new tiktok videos and it'll work. Or just contact me and I'll show you. I will work on getting around this issue in the future.
 
-## Local examples and how to:
+<h3 align="left">Local Examples:</h3>
 
 * Youtube (search and play videos, great template for any video sharing frontend): I took this off live because the API requests costs too much. To run it do the following: clone repo, enter youtube v2 folder, get your own youtube data api key and place into app.js, then finally run following commands in order -> npm i, npm build, npm install -g serve, serve -s build
 
