@@ -13,7 +13,7 @@
 
 <h4 align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/><br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</h4>
 
-===
+----
 
 <h2 align="left">Some live examples:</h2>
 
