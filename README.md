@@ -1,6 +1,20 @@
-# Pseudo Clones (1-3 Day Builds Per Version)
+<h1 align="center">Pseudo Clones</a>
+  <br>
+  1-3 Day Builds Per Version
+</h1>
+<h4 align="center">My clones for some of the biggest companies in the world, might update them in my free time and work towards completion!</h4>
+<p align="center"><a align="center" target="_blank" href="https://vcloudinfo.us12.list-manage.com/subscribe?u=45cab4343ffdbeb9667c28a26&id=e01847e94f"><img src="https://feeds.feedburner.com/RecentCommitsToBearStoneHA.1.gif" alt="Recent Commits to Bear Stone Smart Home" style="border:0"></a></p>
+<div align="center">
+  <h4>
+    <a href="https://travis-ci.org/khiz-k/pseudo-clones"><img src="https://travis-ci.org/CCOSTAN/Home-AssistantConfig.svg?branch=master"/></a>
+    <a href="https://github.com/khiz-k/pseudo-clones/stargazers"><img src="https://img.shields.io/github/stars/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+    <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+        <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
 
-### My clones for some of the biggest companies in the world, might update them in my free time and work towards completion
+  </h4>
+</div>
+<p><font size="3">
+
 
 #### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...
 
