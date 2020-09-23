@@ -1,6 +1,6 @@
 <h1 align="center">Pseudo Clones
   <br>
-  <h2 align="center">My clones for some of the biggest companies in the world, might update them in my free time and work towards completion!</h2>
+  <h4 align="center">My clones for some of the biggest companies in the world, might update them in my free time and work towards completion!</h4>
 </h1>
 <h4 align="center">1-3 Day Builds Per Version</h4>
 <p align="center"><a align="center" target="_blank" href="https://vcloudinfo.us12.list-manage.com/subscribe?u=45cab4343ffdbeb9667c28a26&id=e01847e94f"><img src="https://feeds.feedburner.com/RecentCommitsToBearStoneHA.1.gif" alt="Recent Commits to Bear Stone Smart Home" style="border:0"></a></p>
