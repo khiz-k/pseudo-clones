@@ -11,12 +11,11 @@
   
 <p><font size="3">
 
+<h5 align="center">Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...</h5>
 
-#### Hosted and facilatated by netlify, heroku, firebase, mongodb, aws and more...
+<h4 align="center">Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter, etc.</h4>
 
-#### Written in React (some w/Typescript - goal is to migrate all of them to typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter, etc.
-
-## Some live examples:
+<h2 align="left">Some live examples:</h2>
 
 Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
