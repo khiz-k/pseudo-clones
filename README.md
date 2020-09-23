@@ -2,16 +2,13 @@
 <h4 align="center">My clones for some of the biggest companies in the world!</h4>
 <h4 align="center">(1-3 day builds per version)</h4>
 
-  <h4 align="center">
-  <img src="https://travis-ci.org/CCOSTAN/Home-AssistantConfig.svg?branch=master"/></a>
+<h4 align="center">
+  <img src="https://travis-ci.org/CCOSTAN/Home-AssistantConfig.svg?branch=master"/>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plasticr"/></a>
-    <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/khiz-k/pseudo-clones.svg?style=plasticr"/></a>
+  <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/khiz-k/pseudo-clones.svg?style=plasticr"/></a>
+</h4>
 
-  </h4>
-  
-<p><font size="3">
-
-<h4 align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/><br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</h4>
+<p align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/><br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</p>
 
 #
 
