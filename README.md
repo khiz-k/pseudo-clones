@@ -36,7 +36,8 @@
  
 * HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 
-* Messenger (v2 w/ unique styling, real-time chat in multiple rooms - budget version of whatsapp to be honest, was intended to be a fb messenger clone): Check if server is up @ https://khiz-chat-server.herokuapp.com, if it is then go to https://khiz-chat.netlify.app/ to test the app - no mobile b/c it seems to crash the backend server due to a conflict with heroku hosting. Contact me if there's an issue.
+* Messenger (v2 w/ unique styling, real-time chat in multiple rooms - budget version of whatsapp to be honest, was intended to be a fb messenger clone): https://khiz-chat.netlify.app/
+  * If an issue occurs, check if server is up @ https://khiz-chat-server.herokuapp.com and mobileseems to crash the backend server due to a conflict with heroku hosting. Contact me if there's an issue.
 
 * MERN TikTok (pause/play, snap functionality, IDENTICAL user experience): https://tiktok-clone-8ade4.web.app/ 
   * Tiktok has permission issues where it disallows its' videos from being shared on other sites after certain periods of time. As a result, the videos can appear blank and I didn't want to have to delete database docs and add new ones everyday. If you can't see the videos, make your own firebase or mongo db and connect that with new tiktok videos and it'll work. Or just contact me and I'll show you. I will work on getting around this issue in the future.
