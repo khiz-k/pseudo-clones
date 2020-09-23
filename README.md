@@ -8,7 +8,7 @@
   <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/khiz-k/pseudo-clones.svg?style=plasticr"/></a>
 </h4>
 
-<p align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/><br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</p>
+<p align="center">Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...<br/><br/>Hosted and facilatated by Heroku, Firebase, MongoDB, AWS</p>
 
 #
 
