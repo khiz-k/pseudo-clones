@@ -14,7 +14,7 @@
 
 <h3 align="left">Some live examples:</h3>
 
-Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
+Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): `https://clone-f1c46.web.app/` -> use test@test.com, password = test123
 
 AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify): http://bookstore-20200921170525-hostingbucket-prod.s3-website-us-east-1.amazonaws.com/
 
