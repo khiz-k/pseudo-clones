@@ -13,7 +13,7 @@
 
 <h4 align="center">Hosted and facilatated by heroku, firebase, mongodb, aws<br/><br/>Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...</h4>
 
-<h2 align="left">Some live examples:</h2>
+<h3 align="left">Some live examples:</h3>
 
 Firebase Amazon (auth, add/remove cart, payment processing, order history, awesome template for any ecommerce builds): https://clone-f1c46.web.app/ -> use test@test.com, password = test123
 
