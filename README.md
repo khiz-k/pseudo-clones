@@ -8,7 +8,7 @@
   <a href="https://github.com/khiz-k/pseudo-clones/commits/master"><img src="https://img.shields.io/github/last-commit/khiz-k/pseudo-clones.svg?style=plasticr"/></a>
 </h4>
 
-<p align="center">Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...<br/><br/>Hosted and facilatated by Heroku, Firebase, MongoDB, AWS</p>
+<p align="center">Written in React (some w/Typescript), Redux, Node, Express, HTML, SCSS/CSS, Java/Spring, Angular, Flutter and more...<br/>Heroku&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Firebase&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;MongoDB&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;AWS</p>
 
 #
 
@@ -47,3 +47,7 @@
 * Netflix Mobile (only UI): have flutter and android sdk installed w/an emulator (best is pixel) then get your flutter packages and flutter run.
 
 * ~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
+
+<br/>
+
+If you want to contact me you can reach me at <khiz_k@hotmail.com>.
