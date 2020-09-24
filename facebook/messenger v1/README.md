@@ -1,3 +1,5 @@
 # Live Chat Messenger V1
 
-Recommend checking out v2 instead since that's live, they both have the same functionality but different approaches.
+V2 is basically this, but with multiple rooms and removed auth so that it's easily testable.
+
+https://fireship-demos.web.app/
