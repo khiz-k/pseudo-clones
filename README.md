@@ -30,7 +30,7 @@
 
 * Firebase & React Twitter (w/tweeting ability): https://twitter-clone-647e1.web.app/ (mongo version can be run locally, just update mongodb details with your own)
 
-* React & Express Spotify (not mobile friendly yet, plays song trailers and provides real spotify playlists from their api): https://khiz-spotify.netlify.app
+* React & Express Spotify (NOT MOBILE FRIENDLY yet, plays song trailers and provides real spotify playlists from their api): https://khiz-spotify.netlify.app
 
 * Firebase & React AirBnb (frontend only w/date and time picker that leads to listings): https://airbnb-clone-d6fe5.web.app/
  
