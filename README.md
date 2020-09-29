@@ -52,5 +52,5 @@
 * ~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
 
 <br/>
-e
+
 If you want to contact me you can reach me at <khiz_k@hotmail.com>
