@@ -18,7 +18,8 @@
 
 * AWS Amazon (bookstore variation with full CRUD operations, trying aws amplify): http://bookstore-20200921170525-hostingbucket-prod.s3-website-us-east-1.amazonaws.com/
 
-* MERN Amazon (testing search filter, rating, sorting): http://khiz-amazon.herokuapp.com/ I plan to merge this one with the firebase one to make the ultimate build
+* MERN Amazon (testing search filter, rating, sorting): http://khiz-amazon.herokuapp.com/ 
+  * I plan to merge this one with the firebase one to make the ultimate build
 
 * MERN Whatsapp (auth, realtime messaging in chat, sidebar w/multiple rooms available): https://whats-b6b35.web.app/
 
@@ -37,7 +38,7 @@
 * HTML/CSS Google (search functionality, static): https://khiz-google.netlify.app
 
 * Messenger (v2 w/ unique styling, real-time chat in multiple rooms - budget version of whatsapp to be honest, was intended to be a fb messenger clone): https://khiz-chat.netlify.app/
-  * If an issue occurs, check if server is up @ https://khiz-chat-server.herokuapp.com and mobileseems to crash the backend server due to a conflict with heroku hosting. Contact me if there's an issue.
+  * If an issue occurs, check if server is up @ https://khiz-chat-server.herokuapp.com and mobile seems to crash the backend server due to a conflict with heroku hosting. Contact me if there's an issue.
 
 * MERN TikTok (pause/play, snap functionality, IDENTICAL user experience): https://tiktok-clone-8ade4.web.app/ 
   * Tiktok has permission issues where it disallows its' videos from being shared on other sites after certain periods of time. As a result, the videos can appear blank and I didn't want to have to delete database docs and add new ones everyday. If you can't see the videos, make your own firebase or mongo db and connect that with new tiktok videos and it'll work. Or just contact me and I'll show you. I will work on getting around this issue in the future.
@@ -51,5 +52,5 @@
 * ~~Reddit (login and CRUD): khiz-reddit.herokuapp.com~~ (needs some backend reconfig because account verification is currently a security risk live, but you can still run it locally).
 
 <br/>
-
+e
 If you want to contact me you can reach me at <khiz_k@hotmail.com>
