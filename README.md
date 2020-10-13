@@ -42,7 +42,7 @@
 
 * MERN TikTok (pause/play, snap functionality, IDENTICAL user experience): https://tiktok-clone-8ade4.web.app/ 
   * Tiktok has permission issues where it disallows its' videos from being shared on other sites after certain periods of time (I utilize tiktok.com videos to populate this app and it's possible that those videos just get deleted - I'm not sure how tiktok web works). 
-  * As a result, the videos can appear blank and I didn't want to delete and add new database docs everyday. If this occurs, make your own firebase or mongo db and connect that with new tiktok videos and it'll work. Or just contact me and I'll show you - I will work on getting around this issue in the future.
+    * As a result, the videos can appear blank and I didn't want to delete and add new database docs everyday. If this occurs, make your own firebase or mongo db and connect that with new tiktok videos and it'll work. Or just contact me and I'll show you - I will work on getting around this issue in the future.
 
 <h3 align="left">Local Examples:</h3>
 
