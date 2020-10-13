@@ -1,0 +1,3 @@
+# Discord w/Redux and Firebase
+
+### MongoDB incorporation in progress...
